@@ -9,23 +9,23 @@
 /* Begin PBXBuildFile section */
 		6500E7F9259018B900D20153 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500E7F8259018B900D20153 /* AppDelegate.swift */; };
 		6500E7FB259018B900D20153 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500E7FA259018B900D20153 /* SceneDelegate.swift */; };
-		6500E7FD259018B900D20153 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500E7FC259018B900D20153 /* ViewController.swift */; };
 		6500E800259018B900D20153 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6500E7FE259018B900D20153 /* Main.storyboard */; };
 		6500E803259018B900D20153 /* Currency_Converter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6500E801259018B900D20153 /* Currency_Converter.xcdatamodeld */; };
 		6500E805259018BC00D20153 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6500E804259018BC00D20153 /* Assets.xcassets */; };
 		6500E808259018BC00D20153 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6500E806259018BC00D20153 /* LaunchScreen.storyboard */; };
+		6500E8122590197200D20153 /* CurrencyListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6500E8112590197200D20153 /* CurrencyListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6500E7F5259018B900D20153 /* Currency Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6500E7F8259018B900D20153 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6500E7FA259018B900D20153 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6500E7FC259018B900D20153 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6500E7FF259018B900D20153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6500E802259018B900D20153 /* Currency_Converter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Currency_Converter.xcdatamodel; sourceTree = "<group>"; };
 		6500E804259018BC00D20153 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6500E807259018BC00D20153 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6500E809259018BC00D20153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6500E8112590197200D20153 /* CurrencyListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +60,12 @@
 			children = (
 				6500E7F8259018B900D20153 /* AppDelegate.swift */,
 				6500E7FA259018B900D20153 /* SceneDelegate.swift */,
-				6500E7FC259018B900D20153 /* ViewController.swift */,
 				6500E7FE259018B900D20153 /* Main.storyboard */,
 				6500E804259018BC00D20153 /* Assets.xcassets */,
 				6500E806259018BC00D20153 /* LaunchScreen.storyboard */,
 				6500E809259018BC00D20153 /* Info.plist */,
 				6500E801259018B900D20153 /* Currency_Converter.xcdatamodeld */,
+				6500E8112590197200D20153 /* CurrencyListTableViewController.swift */,
 			);
 			path = "Currency Converter";
 			sourceTree = "<group>";
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6500E7FD259018B900D20153 /* ViewController.swift in Sources */,
 				6500E803259018B900D20153 /* Currency_Converter.xcdatamodeld in Sources */,
 				6500E7F9259018B900D20153 /* AppDelegate.swift in Sources */,
+				6500E8122590197200D20153 /* CurrencyListTableViewController.swift in Sources */,
 				6500E7FB259018B900D20153 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
